@@ -1,0 +1,218 @@
+﻿body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+    display: inline;
+    width: 20px
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+    .square:focus {
+        outline: none;
+    }
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    width: 50%;
+}
+
+.game-info {
+    margin-left: 80px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.css-input {
+    padding: 5px;
+    font-size: 17px;
+    border-width: 3px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 23px;
+    box-shadow: -1px 0px 5px rgba(66,66,66,.75);
+    text-shadow: -50px 0px 13px rgba(66,66,66,.0);
+}
+
+    .css-input:focus {
+        outline: none;
+    }
+
+
+
+
+.myButton {
+    -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+    background: -moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: -webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: -o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: -ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+    background-color: #7892c2;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+    margin: 5px;
+}
+
+    .myButton:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+        background: -moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: -webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: -o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: -ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+        background-color: #476e9e;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.text {
+    font-size: 17px;
+    margin: 5px;
+}
+
+
+
+
+
+
+.mySmallerButton {
+    -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+    background: -moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: -webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: -o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: -ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+    background-color: #7892c2;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 4px 11px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+    margin: 5px;
+}
+
+    .mySmallerButton:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+        background: -moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: -webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: -o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: -ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+        background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+        background-color: #476e9e;
+    }
+
+    .mySmallerButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.border {
+    border: 1px solid black;
+}
+
+.errorMessage {
+    font-size: 17px;
+    margin: 5px;
+    display: inline;
+    color: red;
+}
+.test {
+    margin-left: 35%;
+}
+
+
+
+
+
+.game-board {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+    border: 3px solid #2c3e50;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

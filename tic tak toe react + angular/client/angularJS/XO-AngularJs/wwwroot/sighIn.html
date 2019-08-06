@@ -1,0 +1,14 @@
+﻿<div ng-app="myApp" ng-controller="myController">
+    <div class='AddUser center'>
+        <h1>Welcome To XO game</h1>
+        <input type="text" class='css-input' placeholder='please enter your name' id="txtUserName" ng-model="hostUserName" /><br />
+        <button class='myButton' id="btnCreateUser" ng-click="ChangeParameters($event)"> enter the game</button>
+        <br /><span class="errorMessage">{{txtMessage}}</span>
+
+
+    </div>
+</div>
+
+
+
+

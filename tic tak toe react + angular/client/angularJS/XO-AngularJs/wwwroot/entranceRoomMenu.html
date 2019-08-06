@@ -1,0 +1,13 @@
+﻿<div ng-app="myApp" ng-controller="myController">
+    <div class='center'>
+        <h1>Room Menu</h1>
+        <p class='text'>username: {{hostUserName}}</p>
+        <h3>Join a room by room code </h3>
+        <input type="text" placeholder="enter Room ID" class="css-input" id="txtRoomId" ng-model="txtRoomID" /><br />
+        <button id="btnEnterByRoomCode" class="mySmallerButton" ng-click="ChangeParameters($event)">enter by room code </button>
+        <button id="btnFindRoom" class="mySmallerButton" ng-click="ChangeParameters($event)">find room </button>
+        <h3> or create your own room</h3>
+        <button id="btnCreateRoom" class="mySmallerButton" ng-click="ChangeParameters($event)">create room </button>
+        <br /><span class="errorMessage">{{txtMessage}}</span>
+    </div>
+    </div>

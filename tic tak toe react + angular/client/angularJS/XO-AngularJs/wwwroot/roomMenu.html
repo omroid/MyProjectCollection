@@ -1,0 +1,15 @@
+﻿<div class="center">
+    <h1>Waiting Room</h1>
+    <h3>give your room ID to your friend or wait for player</h3>
+    <span class="text">{{"room ID: " + roomID}}</span> <br />
+    <p class="text">player host</p>
+    <input type="text" placeholder="Waiting For player..." class="css-input" value={{hostUserName}} disabled="disabled" />
+    <p class="text">player guest</p>
+    <input type="text" placeholder="Waiting For player..." class="css-input" value={{guestUserName}} disabled="disabled" />
+    <div>
+    <button class="mySmallerButton" id="btnRemovePlayer" ng-style="{'visibility': isCreatedRoom === true ? 'visible' : 'hidden'}" ng-click="ChangeParameters($event)">remove player</button>
+    <button class="mySmallerButton" id="btnStartGame" ng-style="{'visibility': isCreatedRoom === true ? 'visible' : 'hidden'}" ng-click="ChangeParameters($event)">start game</button> </div>
+    <br /><span class="errorMessage">{{txtMessage}}</span>
+
+</div>
+

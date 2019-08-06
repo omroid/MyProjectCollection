@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XO_Reactjs", "XO_Reactjs\XO_Reactjs.csproj", "{3DA126B0-6F92-46F4-A991-DF0C414E13A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA126B0-6F92-46F4-A991-DF0C414E13A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA126B0-6F92-46F4-A991-DF0C414E13A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA126B0-6F92-46F4-A991-DF0C414E13A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA126B0-6F92-46F4-A991-DF0C414E13A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B97825FF-9170-4A0A-AA49-B8AC94DBD7AD}
+	EndGlobalSection
+EndGlobal

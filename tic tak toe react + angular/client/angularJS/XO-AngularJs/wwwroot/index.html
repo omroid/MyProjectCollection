@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="angular.min.js"></script>
+    <link href="StyleGame.css" rel="stylesheet" />
+    <script>
+        let myApp = angular.module('myApp', []);
+    </script>
+
+    <title></title>
+
+    <script src="myController.js"></script>
+    <script src="GameController.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myController" ng-init="init()">
+        <div id="RenderDiv" ng-include="page"></div>
+        <!--<div id="RenderDiv" ng-include="'Game.html'"></div>-->
+
+
+    </div>
+</body>
+</html>

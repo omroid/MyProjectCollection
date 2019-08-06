@@ -1,0 +1,14 @@
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\bin\Debug\netcoreapp2.1\XO_Reactjs.deps.json
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\bin\Debug\netcoreapp2.1\XO_Reactjs.runtimeconfig.json
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\bin\Debug\netcoreapp2.1\XO_Reactjs.runtimeconfig.dev.json
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\bin\Debug\netcoreapp2.1\XO_Reactjs.dll
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.csprojAssemblyReference.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.RazorAssemblyInfo.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.RazorAssemblyInfo.cs
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.AssemblyInfoInputs.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.AssemblyInfo.cs
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.RazorTargetAssemblyInfo.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\bin\Debug\netcoreapp2.1\XO_Reactjs.pdb
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.dll
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\XO_Reactjs\XO_Reactjs\obj\Debug\netcoreapp2.1\XO_Reactjs.pdb
