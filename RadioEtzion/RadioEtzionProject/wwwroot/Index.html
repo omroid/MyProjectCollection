@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>רדיו קול עציון</title>
+
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <link rel="stylesheet" href="//cdn.plyr.io/3.4.7/plyr.css">
+    <link href="StyleHomePage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="utilities.js"></script>
+    <script src="failed.js"></script>
+    <script src="signInModule.js"></script>
+    <script src="success.js"></script>
+    <script src="toolbar.js"></script>
+    <script src="RegisterOrUpdate.js"></script>
+    <script src="BroadcastList.js"></script>
+    <script src="AudioTag.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.7/plyr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js"></script>
+    <script src="home.js"></script>
+    <script src="LocalStorage.js"></script>
+
+    <script>
+
+
+
+
+
+
+        var signIn;
+        var success;
+        var fail;
+        var toolbar;
+        var RegisterOrUpdate;
+        var toolbar;
+        var broadcastListPage;
+        var home;
+        function init() {
+
+
+
+            let nextModules = {
+
+                LocalStorage: function (obj) {
+                    if (obj) {
+                        toolbar = new toolbarInit(nextModules, "module1", obj);
+                        home = new homeInit(nextModules, "module2");
+                    }
+                    else {
+                        toolbar = new toolbarInit(nextModules, "module1");
+                        home = new homeInit(nextModules, "module2");
+                    }
+
+                },
+
+                onSuccess: function () {
+                    success = new successInit(null, "module2");
+                },
+                onFailure: function () {
+                    fail = new failedInit(null, "module2");
+                },
+
+                signin: function () {
+                    let nextModules = {
+                        LocalStorage: function (obj) {
+                            if (obj) {
+                                toolbar = new toolbarInit(nextModules, "module1", obj);
+                                home = new homeInit(nextModules, "module2");
+                            }
+                            else {
+                                toolbar = new toolbarInit(nextModules, "module1");
+                                home = new homeInit(nextModules, "module2");
+                            }
+
+                        },
+                        onSuccess: function (userObj) {
+
+                            toolbar = new toolbarInit(nextModules, "module1", userObj); //load at login not here !!!!!
+                            success = new successInit(null, "module2");
+                        },
+                        onFailure: function () {
+                            fail = new failedInit(null, "module2");
+                        },
+                        update: function (userObj) {
+                            RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                        },
+                        broadcastList: function (userObj) {
+                            broadcastListPage = new BroadcastListInit(nextModules, "module2", userObj);
+                        },
+                        home: function () {
+                            home = new homeInit(nextModules, "module2");
+                        },
+                        signOut: function () {
+                            let nextModules = {
+                                onSuccess: function () {
+                                    success = new successInit(null, "module2");
+                                },
+                                onFailure: function () {
+                                    fail = new failedInit(null, "module2");
+                                },
+                                broadcastList: function () {
+                                    broadcastListPage = new BroadcastListInit(nextModules, "module2");
+                                },
+
+                                signin: function () {
+                                    let nextModules = {
+                                        onSuccess: function (userObj) {
+
+                                            toolbar = new toolbarInit(nextModules, "module1", userObj); //load at login not here !!!!!
+                                            success = new successInit(null, "module2");
+                                        },
+                                        onFailure: function () {
+                                            fail = new failedInit(null, "module2");
+                                        },
+                                        update: function (userObj) {
+                                            RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                                        },
+                                        signOut: function () {
+
+                                            toolbar = new toolbarInit(nextModules, "module1");
+                                            success = new successInit(null, "module2");
+                                        },
+                                        broadcastList: function (userObj) {
+                                            broadcastListPage = new BroadcastListInit(nextModules, "module2", userObj);
+                                        }
+
+
+                                    }
+                                    signIn = new signInInit(nextModules, "module2");
+                                },
+
+                                register: function () {
+                                    let nextModules = {
+                                        onSuccess: function (userObj) {
+                                            let nextModules = {
+                                                onSuccess: function () {
+                                                    success = new successInit(null, "module2");
+                                                },
+                                                onFailure: function () {
+                                                    fail = new failedInit(null, "module2");
+                                                },
+
+                                                update: function (userObj) {
+                                                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                                                }
+
+
+
+
+
+                                            }
+
+                                            success = new successInit(null, "module2");
+                                        },
+                                        onFailure: function () {
+                                            fail = new failedInit(null, "module2");
+                                        },
+                                    }
+                                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2");
+                                },
+                                update: function (userObj) {
+                                    let nextModules = {
+                                        onSuccess: function (userObj) {
+                                            let nextModules = {
+                                                onSuccess: function () {
+                                                    success = new successInit(null, "module2");
+                                                },
+                                                onFailure: function () {
+                                                    fail = new failedInit(null, "module2");
+                                                },
+
+                                                update: function (userObj) {
+                                                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                                                },
+                                                broadcastList: function (userObj) {
+                                                    broadcastListPage = new BroadcastListInit(nextModules, "module2", userObj);
+                                                },
+                                                home: function () {
+                                                    home = new homeInit(nextModules, "module2");
+                                                },
+                                            }
+
+                                            success = new successInit(null, "module2");
+                                        },
+                                        onFailure: function () {
+                                            fail = new failedInit(null, "module2");
+                                        },
+                                    }
+                                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                                },
+                                signOut: function () {
+                                    toolbar = new toolbarInit(nextModules, "module1");
+                                },
+                                broadcastList: function (userObj) {
+                                    broadcastListPage = new BroadcastListInit(nextModules, "module2", userObj);
+                                },
+                                home: function () {
+                                    home = new homeInit(nextModules, "module2");
+                                },
+
+
+                            };
+                            toolbar = new toolbarInit(nextModules, "module1");
+                            success = new successInit(null, "module2");
+                        }
+
+
+                    }
+                    signIn = new signInInit(nextModules, "module2");
+                },
+
+                register: function () {
+                    let nextModules = {
+                        LocalStorage: function (obj) {
+                            if (obj) {
+                                toolbar = new toolbarInit(nextModules, "module1", obj);
+                                home = new homeInit(nextModules, "module2");
+                            }
+                            else {
+                                toolbar = new toolbarInit(nextModules, "module1");
+                                home = new homeInit(nextModules, "module2");
+                            }
+
+                        },
+                        onSuccess: function (userObj) {
+                            let nextModules = {
+                                onSuccess: function () {
+                                    success = new successInit(null, "module2");
+                                },
+                                onFailure: function () {
+                                    fail = new failedInit(null, "module2");
+                                },
+
+                                update: function (userObj) {
+                                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                                },
+                                broadcastList: function () {
+                                    broadcastListPage = new BroadcastListInit(nextModules, "module2");
+                                },
+                                home: function () {
+                                    home = new homeInit(nextModules, "module2");
+                                }
+
+
+                            }
+
+                            success = new successInit(null, "module2");
+                        },
+                        onFailure: function () {
+                            fail = new failedInit(null, "module2");
+                        },
+                    }
+                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2");
+                },
+                update: function (userObj) {
+                    let nextModules = {
+                        LocalStorage: function (obj) {
+                            if (obj) {
+                                toolbar = new toolbarInit(nextModules, "module1", obj);
+                                home = new homeInit(nextModules, "module2");
+                            }
+                            else {
+                                toolbar = new toolbarInit(nextModules, "module1");
+                                home = new homeInit(nextModules, "module2");
+                            }
+
+                        },
+                        onSuccess: function (userObj) {
+                            let nextModules = {
+                                onSuccess: function () {
+                                    success = new successInit(null, "module2");
+                                },
+                                onFailure: function () {
+                                    fail = new failedInit(null, "module2");
+                                },
+
+                                update: function (userObj) {
+                                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                                },
+                                broadcastList: function () {
+                                    broadcastListPage = new BroadcastListInit(nextModules, "module2");
+                                }
+
+
+
+
+
+                            }
+
+                            success = new successInit(null, "module2");
+                        },
+                        onFailure: function () {
+                            fail = new failedInit(null, "module2");
+                        },
+                    }
+                    RegisterOrUpdate = new RegisterOrUpdateInit(nextModules, "module2", userObj);
+                },
+                signOut: function () {
+                    toolbar = new toolbarInit(nextModules, "module1");
+                    success = new successInit(null, "module2");
+                },
+                broadcastList: function (userObj) {
+                    broadcastListPage = new BroadcastListInit(nextModules, "module2", userObj);
+                },
+                home: function () {
+                    home = new homeInit(nextModules, "module2");
+                },
+
+
+
+            };
+
+            ValidateLocal(nextModules);
+
+
+
+
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="init()">
+    <div id="module1" class="index"></div>
+
+    <div id="module2" class="index ">
+     
+       
+    </div>
+
+
+</body>
+</html>
+
+

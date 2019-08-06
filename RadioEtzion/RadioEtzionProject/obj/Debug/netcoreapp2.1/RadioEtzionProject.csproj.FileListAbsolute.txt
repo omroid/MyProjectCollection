@@ -1,0 +1,70 @@
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.deps.json
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.json
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.dev.json
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csprojAssemblyReference.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cs
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfoInputs.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfo.cs
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorTargetAssemblyInfo.cache
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Documents\Visual Studio 2017\Projects\RadioEtzionProject\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.deps.json
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.json
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.dev.json
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csprojAssemblyReference.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cs
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfoInputs.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfo.cs
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorTargetAssemblyInfo.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Source\Repos\RadioEtzion\src\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.deps.json
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.json
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.dev.json
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csprojAssemblyReference.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cs
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfoInputs.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfo.cs
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorTargetAssemblyInfo.cache
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Source\Repos\RadioEtzion\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.deps.json
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.json
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.dev.json
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csprojAssemblyReference.cache
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cache
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cs
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfoInputs.cache
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfo.cs
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorTargetAssemblyInfo.cache
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Source\Repos\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.deps.json
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.json
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.runtimeconfig.dev.json
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\bin\Debug\netcoreapp2.1\RadioEtzionProject.pdb
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csprojAssemblyReference.cache
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cache
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorAssemblyInfo.cs
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfoInputs.cache
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.AssemblyInfo.cs
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.RazorTargetAssemblyInfo.cache
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.dll
+C:\Users\עונג\Desktop\RadioEtzion4\RadioEtzionProject\obj\Debug\netcoreapp2.1\RadioEtzionProject.pdb

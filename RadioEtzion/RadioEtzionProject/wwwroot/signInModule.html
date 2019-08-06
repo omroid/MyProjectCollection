@@ -1,0 +1,29 @@
+﻿<!--old-->
+
+<!--<div><p>email</p><input type="text" class="signInModule" id="txtEmail" /></div>
+<div>sdadasss</div>
+<div><p>password</p><input type="text" class="signInModule" id="textPassword" /></div>
+<div><input type="button" class="signInModule" id="btnSend" value="signIn" /></div>-->
+
+
+<div class="container" style="max-width:600px; margin: auto;width: 60%;padding: 13px;">
+    <div>
+        <div action="/action_page.php" class="needs-validation" novalidate>
+            <!--//input type responsive-->
+            <div class="form-group">
+                <input type="text" class="form-control" id="txtEmail" placeholder="מייל" required style="text-align:center">
+                <div class="invalid-feedback" style="color:red" id="divErrorEmail"></div>
+            </div>
+            <!--//input type responsive-->
+            <div class="form-group">
+                <input type="password" class="form-control" id="txtPassword" placeholder="סיסמא" required style="text-align:center">
+                <div class="invalid-feedback" style="color:red" id="divErrorPassword"></div>
+            </div>
+
+            <input type="button" class="btn btn-primary" id="btnSend" value="התחבר" />
+            <div class="invalid-feedback" style="color:red" id="divErrorConnect"></div>
+        </div>
+
+
+    </div>
+</div>
