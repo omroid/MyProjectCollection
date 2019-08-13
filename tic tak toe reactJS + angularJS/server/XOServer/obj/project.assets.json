@@ -12535,11 +12535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\עונג\\Documents\\Visual Studio 2017\\Projects\\XO_Reactjs\\XO_Reactjs\\XO_Reactjs.csproj",
-      "projectName": "XO_Reactjs",
-      "projectPath": "C:\\Users\\עונג\\Documents\\Visual Studio 2017\\Projects\\XO_Reactjs\\XO_Reactjs\\XO_Reactjs.csproj",
+      "projectUniqueName": "C:\\Users\\עונג\\Documents\\GitHub\\MyProjectCollection2\\tic tak toe reactJS + angularJS\\server\\XOServer\\XO_Server.csproj",
+      "projectName": "XO_Server",
+      "projectPath": "C:\\Users\\עונג\\Documents\\GitHub\\MyProjectCollection2\\tic tak toe reactJS + angularJS\\server\\XOServer\\XO_Server.csproj",
       "packagesPath": "C:\\Users\\עונג\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\עונג\\Documents\\Visual Studio 2017\\Projects\\XO_Reactjs\\XO_Reactjs\\obj\\",
+      "outputPath": "C:\\Users\\עונג\\Documents\\GitHub\\MyProjectCollection2\\tic tak toe reactJS + angularJS\\server\\XOServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

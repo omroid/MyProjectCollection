@@ -1,0 +1,11 @@
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\bin\Debug\netcoreapp2.1\XO_Server.deps.json
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\bin\Debug\netcoreapp2.1\XO_Server.runtimeconfig.json
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\bin\Debug\netcoreapp2.1\XO_Server.runtimeconfig.dev.json
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\bin\Debug\netcoreapp2.1\XO_Server.dll
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\bin\Debug\netcoreapp2.1\XO_Server.pdb
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\obj\Debug\netcoreapp2.1\XO_Server.csprojAssemblyReference.cache
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\obj\Debug\netcoreapp2.1\XO_Server.csproj.CoreCompileInputs.cache
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\obj\Debug\netcoreapp2.1\XO_Server.AssemblyInfoInputs.cache
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\obj\Debug\netcoreapp2.1\XO_Server.AssemblyInfo.cs
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\obj\Debug\netcoreapp2.1\XO_Server.dll
+C:\Users\עונג\Documents\GitHub\MyProjectCollection2\tic tak toe reactJS + angularJS\server\XOServer\obj\Debug\netcoreapp2.1\XO_Server.pdb
